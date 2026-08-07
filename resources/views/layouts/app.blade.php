@@ -6,8 +6,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'منصة تصميم الكتب الذكية') - Laravel AI Book & Page Design</title>
     
-    <!-- Bootstrap Icons -->
+    <!-- Bootstrap 5 RTL CSS & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
