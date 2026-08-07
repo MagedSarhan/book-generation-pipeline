@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'fal' => [
+        'key' => env('FAL_KEY'),
+        'workflow_id' => env('FAL_WORKFLOW_ID', 'workflows/magedsarhan773/book-generation-pipeline'),
+        'direct_model' => env('FAL_DIRECT_MODEL', 'openai/gpt-image-2/edit'),
+        'max_active_requests' => (int) env('FAL_MAX_ACTIVE_REQUESTS', 3),
+    ],
+
 ];
+
